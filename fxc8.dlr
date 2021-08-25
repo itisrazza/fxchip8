@@ -1,0 +1,13 @@
+[DLSimRunSpace]
+
+[Breakpoint]
+File=Z:\fxc8\fxc8.c
+Line=35
+Flags=00001012
+Sublevel=1
+
+[Breakpoint]
+File=Z:\fxc8\fxc8.c
+Line=35
+Flags=00001012
+Sublevel=2
