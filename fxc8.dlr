@@ -38,3 +38,13 @@ File=C:\Users\razz\Desktop\fxc8\fxc8.c
 Line=89
 Flags=00001012
 Sublevel=2
+
+[Breakpoint]
+File=C:\Users\razz\Desktop\fxc8\c8\emu.c
+Line=55
+Flags=00001010
+
+[Breakpoint]
+File=C:\Users\razz\Desktop\fxc8\c8\emu.c
+Line=57
+Flags=00001012

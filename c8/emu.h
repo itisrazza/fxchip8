@@ -27,7 +27,7 @@ typedef struct C8_ReservedArea
 	uint8_t sp;	 // call stack pointer
 	uint16_t stack[C8_STACK_SIZE];
 
-	uint16_t keys; // pressed keys
+	uint8_t key; // pressed keys
 
 	uint8_t display[C8_DISPLAY_SIZE];
 	uint8_t font[0x10 * C8_FONT_HEIGHT];

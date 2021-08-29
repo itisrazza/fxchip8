@@ -158,7 +158,7 @@ void emulator_debugFrame() {
 
 	locate(11, 6);
 	PrintRev(" K");
-	sprintf(buffer, "%04X", emu.memory.reserved.keys);
+	sprintf(buffer, "  %02X", emu.memory.reserved.key);
 	Print(buffer);
 
 	Bdisp_PutDisp_DD();
