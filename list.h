@@ -4,22 +4,21 @@
 #include <stdlib.h>
 
 typedef struct List list_t;
-typedef struct ListItem list_item_t;
 
-struct List
-{
-	list_item_t *head;
-	list_item_t *tail;
+struct List {
+	size_t size;
+	size_t count;
+
+	void* items;
 };
 
-struct ListItem
-{
-	list_t *list;
-	list_t *next;
-	list_t *prev;
-};
+void List_Init(list_t* list, size_t size);
+void List_Destroy(list_t* list);
 
-void List_Clear(list_t *);
-void List_Push(list_t *);
+int List_Push(list_t* list, void* item);
+void List_Clear(list_t* list);
+
+void* List_Begin(list_t* list);
+void* List_End(list_t* list);
 
 #endif

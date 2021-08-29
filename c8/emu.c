@@ -55,6 +55,7 @@ void C8_Emu_Init(c8_emu *emu)
  */
 int C8_Emu_Cycle(c8_emu *emu)
 {
+	PC += 2;
 }
 
 /**
